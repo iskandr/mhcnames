@@ -1,0 +1,123 @@
+#########################################
+# Swine MHC haplotypes copied from:
+#   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5472656/
+##########################################
+SLA:
+  # TODO:
+  #   no one writes "SLA-Hp-1a.0", pigs actually have a distinct prefix
+  #   "Hp" for haplotypes which is distinct from the prefix used for
+  #   gene names and alleles
+  Hp-1a.0:
+    - SLA-1*01:01
+    - SLA-2*01:01
+    - SLA-3*01:01
+  Hp-2.0:
+    - SLA-1*02:01
+    - SLA-1*07:01
+    - SLA-3*02:01
+
+#########################################
+# Mouse MHC haplotypes copied from:
+# http://www.biolegend.com/media_assets/support_resource/BioLegend_Mouse_Alloantigens.pdf
+# and partially from:
+# http://jackson.jax.org/rs/444-BUH-304/images/MHC_h2_haplotypes.pdf
+##########################################
+H2:
+  a:
+    - Kk
+    - Dd
+    - Ld
+    - IAk
+    - IEk
+    - Qa2a
+    - Qa1a
+  b:
+    - Kb
+    - Db
+    - IAb
+    - IEk
+    - Qa2b
+    - Qa1a
+  d:
+    - Kd
+    - Dd
+    - Ld
+    - IAd
+    - IEd
+    - Qa2a
+    - Qa1b
+  f:
+    - Kf
+    - Abf
+    - Aaf
+    - Ebf
+    - Eaf
+    - Df
+    - Lf
+    - Qa2b
+    - T18d
+    - Qa1b
+  k:
+    - Kk
+    - Dk
+    - IAk
+    - IEk
+    - Qa2b
+    - Qa1b
+  p:
+    - Kp
+    - Dp
+    - Lp
+    - IAp
+    - IEp
+    - Qa2p
+    - Qa1b
+  q:
+    - Kq
+    - Dq
+    - Lq
+    - IAq
+    - IEq
+    - Qa2q
+  q2:
+    - Kq
+    - Dq
+    - Lq
+    - IAq
+    - IEq
+    - Qa2a
+    - Qa1a
+  r:
+    - Kr
+    - Dr
+    - Lr
+    - IAr
+    - IEr
+    - Qa2b
+  s:
+    - Ks
+    - Abs
+    - Aas
+    - Ebs
+    - Eas
+    - Ds
+    - Ls
+    - Qa2a
+    - T18b
+    - Qa1b
+  v:
+    - Kv
+    - Dv
+    - Lv
+    - IAv
+  z:
+    - Ku
+    - Abu
+    - Aau
+    - Ebu
+    - Eau
+    - Dz
+    - Lz
+    - Qa2b
+    - T18b
+    - Qa1b

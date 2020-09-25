@@ -1,0 +1,1193 @@
+HLA:
+  # copied table of primary human MHC alleles from:
+  # http://www.imgt.org/IMGTrepertoireMHC/LocusGenes/nomenclatures/human/MHC/human_MHCnom.html
+  Ia:
+    - A
+    - B
+    - C
+  Ib:
+    - E
+    - F
+    - G
+  Ic:
+    - MICA
+    - MICB
+    - BTN3A1
+  Id:
+    - CD1a
+    - CD1b
+    - CD1c
+    - CD1d
+    - CD1e
+    - MR1
+  IIa:
+    DR:
+      - DRA
+      - DRB1
+      - DRB3
+      - DRB4
+      - DRB5
+    DP:
+      - DPA
+      - DPA1
+      - DPB
+      - DPB1
+    DQ:
+      - DQA
+      - DQA1
+      - DQB
+      - DQB1
+  IIb:
+    DO:
+      - DOA
+      - DOB
+    DM:
+      - DMA
+      - DMB
+######################################################
+#
+# Mouse MHC gene data copied from:
+# http://www.imgt.org/IMGTrepertoireMHC/LocusGenes/nomenclatures/mouse/MHC/Mu_MHCnom.html
+#
+######################################################
+H2:
+  Ia:
+    - D
+    - D2
+    - D3
+    - D4
+    - K
+    - K2
+    - L
+  Ib:
+    - Q1
+    - Q2
+    - Q3
+    - Q4
+    - Q5
+    - Q6
+    - Q7
+    - Q8
+    - Q9
+    - Q10
+    - T1
+    - T2
+    - T3
+    - T4
+    - T5
+    - T6
+    - T7
+    - T8
+    - T9
+    - T10
+    - T11
+    - T12
+    - T13
+    - T14
+    - T15
+    - T16
+    - T17
+    - T18
+    - T19
+    - T20
+    - T21
+    - T22
+    - T23
+    - T24
+    - M1
+    - M2
+    - M3
+    - M4
+    - M5
+    - M6
+    - M7
+    - M8
+    - M9
+    - M10-1
+    - M10-2
+    - M10-3
+    - M10-4
+    - M10-5
+    - M10-PS1
+    - M10-PS2
+    - M10-PS3
+  Id:
+    - CD1d
+  IIa:
+    A:
+      - AA
+      - AB
+    E:
+      - EA
+      - EB1
+      - EB2
+    P:
+      - PA
+      - PB
+  IIb:
+    DM:
+      - DMA
+      - DMB1
+      - DMB2
+    DO:
+      - OA
+      - OB
+######################################################
+#
+# Horse MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/ELA/species
+#
+######################################################
+Eqca:
+  Ia:
+    - N
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "6"
+    - "7"
+    - "16"
+  IIa:
+    DQ:
+      - DQA1
+      - DQA2
+      - DQA3
+      - DQB1
+      - DQB2
+      - DQB3
+    DR:
+      - DRA
+      - DRB1
+      - DRB2
+      - DRB3
+######################################################
+#
+# Chicken MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/CHICKEN/species
+#
+######################################################
+Gaga:
+  Ia:
+    - BF1
+    - BF2
+  Id:
+    - CD1-1
+######################################################
+#
+# Suid/swine MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/SLA/species
+#
+######################################################
+Susc:
+  Ia:
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "9"
+    - "11"
+    - "12"
+  Ib:
+    - "6"
+    - "7"
+    - "8"
+  Ic:
+    - MIC1
+    - MIC2
+  IIa:
+    DQ:
+      - DQA
+      - DQB1
+    DR:
+      - DRA
+      - DRB1
+      - DRB2
+      - DRB3
+      - DRB4
+      - DRB5
+  IIb:
+    DO:
+      - DOA
+      - DOB1
+    DM:
+      - DMA
+      - DMB
+######################################################
+#
+# Bovid MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/BoLA/species
+#
+######################################################
+BoLA:
+  Ia:
+    - NC1
+    - NC2
+    - NC3
+    - NC4
+    - NC5
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+  Id:
+    - CD1b3
+    - CD1d
+  IIa:
+    DQ:
+      - DQA
+      - DQA1
+      - DQB
+    DR:
+      - DRA
+      - DRB3
+######################################################
+#
+# Ovid MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/OLA/species
+#
+######################################################
+Ovar:
+  Ia:
+    - N
+  IIa:
+    DQ:
+      - DQA1 # TODO: what happened to DQB1?
+    DR:
+      - DRA
+      - DRB1
+######################################################
+#
+# Salmonid MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/FISH/species
+#
+######################################################
+Onmy:
+  Ia:
+    - UBA
+  IIa:
+    DA:
+      - DAA
+      - DAB
+Sasa:
+  Ia:
+    - UBA
+  IIa:
+    DA:
+      - DAA
+      - DAB
+######################################################
+#
+# Canid MHC gene data copied from:
+# https://www.ebi.ac.uk/ipd/mhc/group/DLA/species
+#
+######################################################
+Calu:
+  Ia:
+    - "12"
+    - "64"
+    - "88"
+  IIa:
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRB1 # TODO: what happened to DRA?
+######################################################
+#
+# Murid MHC gene data copied from:
+# - https://www.ebi.ac.uk/ipd/mhc/group/RT1
+# and partial list from:
+# - https://www.ebi.ac.uk/ipd/mhc/group/RT1/species
+#
+# More explanation about the rat MHC locus here:
+# https://genome.cshlp.org/content/14/4/631.full
+#
+######################################################
+Rano:
+  Ia:
+    - A
+    - A1
+    - A2
+    - Bb
+    - CE5
+    - CE16
+    - "9.5"
+    - "9.6"
+    - M3-1
+  Ib:
+    - U
+  IIa:
+    D:
+      - Da
+      - Db1
+  IIb:
+    DO:
+      - DOa
+      - DOb
+    DM:
+      - DMA
+######################################################
+#
+# Non-human primates
+#
+######################################################
+
+# Alouatta pigra
+# Guatemalan black howler
+Alpi:
+  IIa:
+    DR:
+      - DRB
+
+# Aotus azarai
+# Azara's Night Monkey
+Aoaz:
+  IIa:
+    DR:
+      - DRB
+      - DRB3
+# Aotus lemurinus
+# Gray-bellied Night Monkey
+Aole:
+  Ib:
+    - F
+
+# Aotus nancymaae
+# Nancy Ma's Night Monkey
+Aona:
+  IIa:
+    DP:
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+      - DQB2
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+
+# Aotus nigriceps
+# Black-headed Night Monkey
+Aoni:
+  Ia:
+    DR:
+      - DRB
+      - DRB1
+      - DRB3
+
+# Aotus trivirgatus
+# Three-striped Night Monkey
+Aotr:
+  Ib:
+    - E
+    - G
+  IIa:
+    DQ:
+      - DQB2
+    DR:
+      - DRB
+      - DRB1
+      - DRB3
+  I:
+    - PS2
+
+# Aotus vociferans
+# Spix's Night Monkey
+Aovo:
+  IIa:
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+
+# Ateles belzebuth
+# White-fronted Spider Monkey
+Atbe:
+  Ia:
+    - B
+  Ib:
+    - E
+    - G
+  IIa:
+    DR:
+      - DRB
+
+# Ateles fusciceps
+# Black-headed Spider Monkey
+Atfu:
+  Ia:
+    - B
+  Ib:
+    - E
+    - G
+
+# Callithrix jacchus
+# Common Marmoset
+Caja:
+  Ia:
+    - B
+    - B1
+    - B2
+    - B3
+    - B4
+    - B5
+    - B6
+    - B7
+    - B8
+    - B9
+  Ib:
+    - E
+    - F
+    - F1Ps
+    - F2Ps
+    - F3Ps
+    - F5Ps
+    - G
+    - G10Ps
+    - G11Ps
+    - G13Ps
+    - G14Ps
+    - G2Ps
+    - G4Ps
+    - G5Ps
+    - G6Ps
+    - G8Ps
+    - G9Ps
+    - PS2
+  IIa:
+    DQ:
+      - DQA1
+      - DQB1
+      - DQB2
+    DR:
+      - DRB
+      - DRB1
+
+# Callicebus moloch
+# Red-bellied Titi
+Camo:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+      - DRB11
+      - DRB3
+
+# Callithrix pygmaea
+# Pygmy Marmoset
+Capy:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+
+# Cebus apella
+# Tufted Capuchin
+Ceap:
+  IIa:
+    DR:
+      - DRB
+
+# Cercocebus atys
+# Sooty Mangabey
+Ceat:
+  Ia:
+    - A1
+    - Aw1
+    - Aw2
+    - B
+  Ib:
+    - E
+    - F
+  I:
+    - I
+
+# Cercopithecus mitis
+# Blue Monkey
+Cemi:
+  Ia:
+    - A
+    - B
+  IIa:
+    DQ:
+      - DQA1
+
+# Cercopithecus neglectus
+# De Brazza's monkey
+Cene:
+  IIa:
+    DQ:
+      - DQA1
+
+# Chlorocebus aethiops
+# Grivet
+Chae:
+  Ia:
+    - A
+    - B
+  Ib:
+    - G
+  IIa:
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRB
+      - DRB1
+      - DRB5
+      - DRB6
+
+# Chlorocebus pygerythrus
+# vervet monkey
+Chpy:
+  Ia:
+    - A
+    - B
+
+# Chlorocebus sabaeus
+# Green Monkey
+Chsa:
+  Ia:
+    - B
+  Ib:
+    - E
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB5
+  I:
+    - A
+    - AG
+
+# Colobus guereza
+# Mantled Guereza
+Cogu:
+  IIa:
+    DQ:
+      - DQA1
+# Gorilla beringei
+# eastern gorilla
+Gobe:
+  Ia:
+    - A
+    - B
+    - C
+  Ib:
+    - E
+    - G
+    - H
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQA2
+      - DQB1
+      - DQB2
+    DR:
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB5
+      - DRB6
+  IIb:
+    DM:
+      - DMB
+  I: # unclassified
+    - OKO
+
+# Gorilla gorilla
+# Gorilla
+Gogo:
+  Ia:
+    - A
+    - B
+    - C
+  Ib:
+    - E
+    - F
+    - G
+    - H
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQA2
+      - DQB1
+      - DQB2
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB5
+      - DDRB6
+  IIb:
+    DM:
+      - DMB
+  I: # unclassified
+    - OKO
+
+# Hylobates lar
+# Lar Gibbon
+Hyla:
+  Ia:
+    - A
+    - B
+  IIa:
+    DQ:
+      - DQA1
+      - DQA2
+      - DQB1
+      - DQB2
+
+# Hylobates moloch
+# Silvery Javan Gibbon
+Hymo:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+
+# Leontopithecus rosalia
+# Golden Lion Tamarin
+Lero:
+  Ib:
+    - G
+
+# Lophocebus aterrimus
+# Black Crested Mangabey    DQA1
+Loat:
+  IIa:
+    DQ:
+      - DQA1
+
+# Macaca arctoides
+# Stump-tailed Macaque
+Maar:
+  Ia:
+    - A1
+    - B
+  IIa:
+    DP:
+      - DPA1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRB1
+      - DRB5
+  I: # unclassified
+    - I
+
+# Macaca assamensis
+# Assam Macaque
+Maas:
+  Ia:
+    - A1
+    - B
+  I:
+    - I
+
+# Macaca fascicularis
+# Crab-eating Macaque
+Mafa:
+  I:
+    - AG
+    - I
+  Ia:
+    - A1
+    - A2
+    - A3
+    - A4
+    - A5
+    - A6
+    - A8
+    - B
+    - B11L
+    - B16
+    - B17
+    - B20
+    - B21
+  Ib:
+    - E
+    - F
+    - G
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB4
+      - DRB5
+      - DRB6
+  IIb:
+    DM:
+      - DMA
+      - DMB
+    DO:
+      - DOA
+      - DOB
+
+# Macaca fuscata
+# Japanese Macaque
+Mafu:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+      - DRB3
+
+# Mandrillus leucophaeus
+# Drill
+Male:
+  IIa:
+    DR:
+      - DRB1
+
+# Macaca leonina
+# Northern Pig-tailed Macaque
+Malo:
+  Ia:
+    - A1
+    - A2
+    - A3
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+  IIb:
+    DM:
+      - DMA
+      - DMB
+    DO:
+      - DOA
+      - DOB
+  TODO: B I
+
+# Macaca mulatta
+# Rhesus Monkey
+Mamu:
+  Ia:
+    - A1
+    - A2
+    - A3
+    - A4
+    - A5
+    - A6
+    - A7
+    - B
+    - B11L
+    - B16
+    - B17
+    - B20
+  Ib:
+    - E
+    - F
+    - G
+  I:
+    - I
+    - AG
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+      - DPB2
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB4
+      - DRB5
+      - DRB6
+  IIb:
+    DM:
+      - DMA
+      - DMB
+
+# Macaca nemestrina
+# Southern Pig-tailed Macaque
+Mane:
+  Ia:
+    - A1
+    - A2
+    - A3
+    - A4
+    - A5
+    - A6
+    - A7
+    - B
+    - B12
+    - B16
+    - B17
+    - B20
+  Ib:
+    - E
+    - F
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB5
+      - DRB6
+  TODO:
+    - AG
+    - I
+
+# Macaca silenus
+# Lion-tailed Macaque
+Masi:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+      - DRB4
+
+# Mandrillus sphinx
+# Mandrill
+Masp:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB5
+      - DRB6
+
+# Macaca thibetana
+# Milne Edward's Macaque
+Math:
+  Ia:
+    - A1
+    - A2
+    - B
+  IIa:
+    DP:
+      - DPB1
+    DQ:
+      - DQB1
+  I:
+    - I
+
+# Papio anubis
+# Olive Baboon
+Paan:
+  Ia:
+    - A
+    - B
+  Ib:
+    -F
+  I:
+    - AG
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB5
+      - DRB6
+
+# Papio cynocephalus
+# Yellow Baboon
+Pacy:
+  Ia:
+    - A
+    - B
+  Ib:
+    - E
+  IIa:
+    DQ:
+      - DQA1
+
+# Papio hamadryas
+# Hamadryas Baboon
+Paha:
+  Ia:
+    - A
+    - B
+  IIa:
+    DP:
+      - DPA1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRB1
+
+# Pan paniscus
+# Bonobo
+Papa:
+  Ia:
+    - A
+    - B
+    - C
+  Ib:
+    - G
+    - H
+  IIa:
+    DR:
+      - DRB1
+      - DRB6
+    DP:
+      - DPB1
+  IIb:
+    DM:
+      - DMB
+
+# Papio papio
+# Guinea Baboon
+Papp:
+  IIa:
+    DQ:
+      DQA1
+
+# Pan troglodytes
+# Common Chimpanzee
+Patr:
+  Ia:
+    - A
+    - AL
+    - B
+    - C
+  Ib:
+    - E
+    - F
+    - G
+    - H
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQA2
+      - DQB1
+      - DQB2
+    DR:
+      - DRA
+      - DRB
+      - DRB1
+      - DRB3
+      - DRB4
+      - DRB5
+      - DRB6
+      - DRB7
+  IIb:
+    DM:
+      - DMB
+    DO:
+      - DOB
+
+# Papio ursinus
+# Chacma Baboon
+Paur:
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+      - DRB5
+      - DRB6
+
+# Pithecia pithecia
+# White-faced Saki
+Pipi:
+  Ia:
+    - B
+  Ib:
+    - E
+    - G
+  IIa:
+    DR:
+      - DRB
+      - DRB3
+
+# Pongo abelii
+# Sumatran Orangutan
+Poab:
+  Ia:
+    - A
+    - B
+    - C
+  IIa:
+    DR:
+      - DRA
+
+# Pongo pygmaeus
+# Bornean Orangutan
+Popy:
+  Ia:
+    - A
+    - B
+    - C
+  I:
+    - Ap
+  Ib:
+    - E
+    - H
+  IIa:
+    DP:
+      - DPA1
+      - DPB1
+    DQ:
+      - DQA1
+      - DQA2
+      - DQB1
+      - DQB2
+    DR:
+      - DRA
+      - DRB5
+      - DRB6
+  IIb:
+    DM:
+      - DMB
+
+# Rhinopithecus roxellana
+# golden snub-nosed monkey
+Rhro:
+  IIa:
+    DP:
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+    DR:
+      - DRB1
+      - DRB2
+
+# Saguinus fuscicollis
+# Brown-mantled Tamarin
+Safu:
+  Ib:
+    - G
+  I:
+    - PS1
+    - PS2
+
+# Saguinus geoffroyi
+# Geoffroy's Tamarin
+Sage:
+  I:
+    - PS1
+    - PS2
+
+# Saguinus labiatus
+# White-lipped Tamarin
+Sala:
+  Ib:
+    - G
+  IIa:
+    DR:
+      - DRB
+      - DRB1
+
+# Saguinus mystax
+# Moustached Tamarin
+Samy:
+  I:
+    - PS1
+    - PS2
+
+# Saguinus oedipus
+# Cottontop Tamarin
+Saoe:
+  Ia:
+    - C
+  Ib:
+    - E
+    - F
+    - G
+  IIa:
+    DP:
+      - DPB1
+    DQ:
+      - DQA1
+      - DQB1
+      - DQB2
+    DR:
+      - DRB
+      - DRB1
+      - DRB11
+      - DRB3
+      - DRB5
+  I:
+    - N1
+    - N3
+    - N4
+    - PS1
+
+# Saimiri sciureus
+# Common squirrel monkey
+Sasc:
+  Ib:
+    - G
+  IIa:
+    DP:
+      - DPA1
+    DR:
+      - DRB
+
+# Semnopithecus entellus
+# Northern Plains Gray Langur
+Seen:
+  IIa:
+    DP:
+      - DPB1
+
+# Theropithecus gelada
+# Gelada
+Thge:
+  IIa:
+    DQ:
+      DQA1
